@@ -69,11 +69,12 @@ const Users = ({ companyData, setCompapnyData }) => {
                                             Region
                                         </Th>
                                         <Th fontSize={17} fontWeight={700} color='#1d1d1def'>
-                                            Customer
-                                        </Th>
-                                        <Th fontSize={17} fontWeight={700} color='#1d1d1def'>
                                             Location
                                         </Th>
+                                        <Th fontSize={17} fontWeight={700} color='#1d1d1def'>
+                                            Customer
+                                        </Th>
+
                                         <Th fontSize={17} fontWeight={700} color='#1d1d1def'>
                                             Sales
                                         </Th>

@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
+import { BiBarChartAlt2 } from "react-icons/bi";
 
 const Sidebar = ({ toggleUser }) => {
     // const location = useLocation()
@@ -26,7 +27,7 @@ const Sidebar = ({ toggleUser }) => {
                     <li className=''>
                         <NavLink to='/users' className=''>
                             <div className='icon_container'>
-                                <span className='iconify' data-icon='bx:bxs-user' data-inline='false'></span>
+                                <BiBarChartAlt2 />
                             </div>
                             <p>Chart</p>
 
